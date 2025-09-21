@@ -1,17 +1,19 @@
-# Ignore Python cache
+# Python
 __pycache__/
 *.pyc
-
-# Ignore virtual environment
+*.pyo
+*.pyd
 venv/
+env/
+*.env
 
-# Ignore environment config files
-.env
+# Flask uploads
+uploads/
 
-# Ignore IDE/editor settings
+# IDEs
 .vscode/
 .idea/
 
-# Ignore OS-specific files
+# System files
 .DS_Store
 Thumbs.db
